@@ -56,7 +56,7 @@ export default function Hero() {
                             <p className='text-slate-300'>Marthandam, India </p>
                         </div>
 
-                        <img className='rounded-md w-28' src={Map} />
+                        <img className='rounded-md w-20' src={Map} />
                     </div>
 
                     <div className=' bg-gray p-3 rounded-md flex justify-evenly items-center'>
