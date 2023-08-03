@@ -11,7 +11,7 @@ import  Telegram from '../assets/telegram.png'
 export default function Hero() {
     return(
         <>
-            <section className='flex justify-center items-center font my-11 gap-5 mx-10'>
+            <section className='flex justify-center items-center font my-7 gap-5 mx-10'>
 
                 <div className='grid grid-cols-3 grid-rows-2 gap-3 w-1/2 '>
 
