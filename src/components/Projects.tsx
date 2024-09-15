@@ -7,6 +7,7 @@ type Project = {
     title: string;
     description: string;
     image_link: string;
+    tech_stack : string;
     link: {
         github?: string;
         live_link?: string;
@@ -20,14 +21,17 @@ export default function Projects() {
             <div className="container text-white py-10 flex flex-col gap-10"> 
                 <h2 className='text-xl sm:text-2xl font-bold'>Projects</h2>
 
-                <section className="grid grid-cols-4 gap-7">
+                <section className="grid grid-cols-1 md:grid-cols-3 gap-7">
 
                 {
                     projects.map( (project : Project) => (
 
                         <div key={project.id} className="bg-white/20 p-3 rounded-md flex flex-col gap-3 ">
-                            <Image src={project.image_link} alt={project.title} width={300} height={200} className="rounded-xl"/>
-                            <h3 className="text-lg font-bold">{project.title}</h3>
+                            <Image src={project.image_link} alt={project.title} width={400} height={200} className="rounded-xl"/>
+                            <div className="flex flex-col gap-1">
+                                <h3 className="text-lg font-bold">{project.title}</h3>
+                                <h5 className="text-base font-semibold text-white/80">{project.tech_stack}</h5>
+                            </div>
                             <div className="flex gap-2">   
                             {
                                 project.link.github ? 

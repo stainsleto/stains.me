@@ -18,7 +18,7 @@ const experience  = [
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
               </svg>
 
-              Remote, India
+              Remote
             </span> <br />
           </div>
           <h4 className="font-bold">Frontend Engineer (Intern) • July 2024 - Aug 2024 </h4>
@@ -58,10 +58,10 @@ const experience  = [
           <h5 className="font-semibold">IzzatCouncil</h5>
           <ul className="flex flex-col gap-3">
             <li>
-              • Implemented a LMS web application from scratch and added an Investor console for their investors.
+              • Implemented a mobile responsive Landing Page to get new enrolls for the masterclass.
             </li>
             <li>
-              • Pages and Investors console were developed using ReactJs and tailwindcss, wordpress was used for LMS.
+              • Implemented responsive landing page using nextJs and tailwindcss and deployed it as a static site.
             </li>
           </ul>
 
@@ -94,7 +94,7 @@ const experience  = [
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
               </svg>
 
-              Remote (India) - Company Based in Turkey
+              Remote
             </span> <br />
           </div>
           <h4 className="font-bold">Frontend Wordpress Developer • May 2021 - May 2022 </h4>
@@ -114,16 +114,41 @@ const experience  = [
   ];
 
   const projects = [
-    {
+    
+  {
     id: 1,
-    title: 'Realestate Marketplace',
-    description: 'A real estate marketplace where users can buy and sell properties.',
+    title: 'Blog Application',
+    description: 'A Blog application similar to Medium developed using ReactJS for frontend Hono for backend, Postgesql for the database and deployed using the serverless platform in cloudfare.',
     image_link: '/image/dum.png',
+    tech_stack : 'ReactJs, Hono, Recoil, Postgres',
     link: {
-        github: 'https://github.com',
+        github: 'https://github.com/stainsleto/Learning-JS-FrameWorks/tree/main/100xdevs/week13',
         live_link: 'https://github.com'
     }
-  }
+  },
+  {
+    id: 2,
+    title: 'Realestate Marketplace',
+    description: 'A dynamic platform enabling users to buy and sell properties, integrated with an advanced price prediction feature powered by an open-source repo. This solution enhances decision-making for buyers.',
+    image_link: '/image/dum.png',
+    tech_stack : 'ReactJs, ExpressJs, MongoDB',
+    link: {
+        github: 'https://github.com/stainsleto/Real-Estate-Marketplace',
+        // live_link: 'https://github.com'
+    }
+  },
+  {
+    id: 3,
+    title: 'Mini Paytm',
+    description: 'A robust application allowing users to seamlessly send and receive money, built with ExpressJS for the backend and ReactJS for the frontend. Utilizing transactions in mongoDB for transactions and database, ensuring safe and reliable financial transfer.',
+    image_link: '/image/dum.png',
+    tech_stack : 'ReactJs, ExpressJs, MongoDB',
+    link: {
+        github: 'https://github.com/stainsleto/Learning-JS-FrameWorks/tree/main/100xdevs/paytm',
+        live_link: 'https://github.com'
+    }
+  },
+
   ]
 
 export { experience,projects }

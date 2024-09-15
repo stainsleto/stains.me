@@ -12,7 +12,7 @@ export default function About(){
                         <Image src="/image/profile-crop.jpg" className='rounded-lg' alt="Stains" width={250} height={100} />   
                         <div className='flex flex-col gap-2'>
                             <h3 className='font-bold text-lg'>Hey again 👋</h3>
-                            <p className='text-sm sm:text-base '>I&apos;m a Full Stack Engineer currently working remotely for a Dubai-based company. My expertise lies in developing applications using the MERN stack, Next.js, and Recoil for state management. I also utilize PostgreSQL with Prisma for database management and deploy applications on Linux servers using Nginx. I handle projects end-to-end, from development to deployment, ensuring scalable and efficient solutions. This role has given me the opportunity to hone my skills in both front-end and back-end development.</p>
+                            <p className='text-sm sm:text-base '>I&apos;m a Full Stack Engineer currently learning tech through 100xDevs cohort. My expertise lies in developing applications using MERN stack, Next.js, and Recoil for state management. I also utilize PostgreSQL with Prisma for database management and deploy applications on Linux servers using Nginx. I handle projects end-to-end, from development to deployment, ensuring scalable and efficient solutions.</p>
                         </div>
                         <div className='flex gap-3'>
                         <p className='flex gap-2'>
@@ -35,7 +35,7 @@ export default function About(){
                             </svg>
 
 
-                                Remote Dubai
+                                buildnboost
                             </span>
                         </p>
 
@@ -46,7 +46,7 @@ export default function About(){
                         <div className='flex flex-col gap-2 border-2 border-white/10 p-3 rounded-lg bg-white/10 '>
                             <h3 className='font-bold text-lg'>A little bit about me</h3>
                             <p className='text-sm sm:text-base  leading-6'>
-                            I&apos;m STAINS K S MAULT, known as stains_leto around the web. I&apos;m a 22-year-old Full Stack Developer based in India, with over 5 years of coding experience. Since 2020, I&apos;ve been freelancing, taking on various projects that have honed my skills in both front-end and back-end development. My passion for technology extends beyond work; I actively contribute to open-source projects, where I enjoy collaborating with the global developer community to create impactful solutions.
+                            I&apos;m STAINS K S MAULT, known as stains_leto around the web. I&apos;m a 22-year-old Full Stack Developer based in India, with over of 5 years into programming. Since 2020, I&apos;ve been freelancing, taking on various projects that have honed my skills in both front-end and back-end development. My passion for technology extends beyond work; I'm actively looking to contribute on open-source projects with the global developer community to create impactful solutions.
                             </p>
                         </div>
 

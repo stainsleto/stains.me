@@ -15,33 +15,34 @@ import { FaGithub } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 export default function Home() {
 
-  const dock = [{
-    title : "mail",
-    icon: <FiMail   />,
-    href: 'https://home.com'
+  const dock = [
+    {
+
+      title : "Resume",
+      icon: <IoDocumentText className="h-full w-full text-neutral-700" />,
+      href: 'https://docs.google.com/document/d/1CFhLnAvzYMlROg0xImJMrtHeCDjByRTd/edit?usp=sharing&ouid=104260973669657686969&rtpof=true&sd=true'
+    },
+    {
+    title : "Mail",
+    icon: <FiMail className="h-full w-full text-neutral-700"  />,
+    href: 'mailto:stainsmault@gmail.com'
   },
   {
   title : "github",
-  icon: <FaGithub   />,
-  href: 'https://home.com'
+  icon: <FaGithub className="h-full w-full text-neutral-700"   />,
+  href: 'https://github.com/stainsleto'
 },
 {
 
 title : "x",
-    icon: <FaXTwitter   />,
-    href: 'https://home.com'
+    icon: <FaXTwitter className="h-full w-full text-neutral-700"  />,
+    href: 'https://x.com/LetoStains'
   },
-  {
-
-  title : "resume",
-  icon: <IoDocumentText  />,
-  href: 'https://home.com'
-},
 {
 
-title : "linkedin",
-    icon: <FaLinkedin  />,
-    href: 'https://home.com'
+title : "Linkedin",
+    icon: <FaLinkedin className="h-full w-full text-neutral-700" />,
+    href: 'https://www.linkedin.com/in/stains-leto/'
   },
 ]
 
