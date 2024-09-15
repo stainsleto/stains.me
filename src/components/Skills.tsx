@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function Skills() {
 
     return(
-        <main className=' bg-neutral-950 text-white py-10 sm:py-10'>
+        <main className=' bg-neutral-950 text-white py-10 sm:py-10 md:px-20'>
             <div className='container flex flex-col gap-7'>
                 <h2 className='text-xl sm:text-2xl font-bold'>Skills ⚒️</h2>
 

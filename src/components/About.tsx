@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function About(){
     return(
-        <main className='bg-neutral-950 py-20 pt-40 md:py-10'>
+        <main className='bg-neutral-950 py-20 pt-40 md:py-10 md:px-20'>
             <div className='container text-white py-10 flex flex-col gap-7'>
                 <h2 className='text-xl sm:text-2xl font-bold'>About </h2>
                 <div className='flex flex-col lg:flex-row justify-center gap-5 '>
