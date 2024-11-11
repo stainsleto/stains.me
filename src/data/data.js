@@ -120,10 +120,10 @@ const experience  = [
     title: 'Blog Application',
     description: 'A Blog application similar to Medium developed using ReactJS for frontend Hono for backend, Postgesql for the database and deployed using the serverless platform in cloudfare.',
     image_link: '/image/dum.png',
-    tech_stack : 'ReactJs, Hono, Recoil, Postgres',
+    tech_stack : 'ReactJs, Hono, Postgres',
     link: {
         github: 'https://github.com/stainsleto/Learning-JS-FrameWorks/tree/main/100xdevs/week13',
-        live_link: 'https://github.com'
+        // live_link: 'https://github.com'
     }
   },
   {
@@ -145,7 +145,7 @@ const experience  = [
     tech_stack : 'ReactJs, ExpressJs, MongoDB',
     link: {
         github: 'https://github.com/stainsleto/Learning-JS-FrameWorks/tree/main/100xdevs/paytm',
-        live_link: 'https://github.com'
+        // live_link: 'https://github.com'
     }
   },
 
