@@ -145,9 +145,20 @@ const experience  = [
   ];
 
   const projects = [
+    {
+      id: 1,
+      title: '⛳️ Open Wise',
+      description: 'A payment application where people can transfer funds, implemented On ramp transactions with seperate servers while adding funds to the wallet. ',
+      image_link: '/image/projects/openwise.png',
+      tech_stack : 'NextJs, Prisma, Postgresql, expressJs',
+      link: {
+          github: 'https://github.com/stainsleto/openwise',
+          // live_link: 'https://github.com'
+      }
+    },
     
   {
-    id: 1,
+    id: 2,
     title: 'Blog Application',
     description: 'A Blog application similar to Medium developed using ReactJS for frontend Hono for backend, Postgesql for the database and deployed using the serverless platform in cloudfare.',
     image_link: '/image/dum.png',
@@ -158,7 +169,7 @@ const experience  = [
     }
   },
   {
-    id: 2,
+    id: 3,
     title: 'Realestate Marketplace',
     description: 'A dynamic platform enabling users to buy and sell properties, integrated with an advanced price prediction feature powered by an open-source repo. This solution enhances decision-making for buyers.',
     image_link: '/image/dum.png',
@@ -169,10 +180,10 @@ const experience  = [
     }
   },
   {
-    id: 3,
+    id: 4,
     title: 'Mini Paytm',
     description: 'A robust application allowing users to seamlessly send and receive money, built with ExpressJS for the backend and ReactJS for the frontend. Utilizing transactions in mongoDB for transactions and database, ensuring safe and reliable financial transfer.',
-    image_link: '/image/dum.png',
+    image_link: '/image/projects/paytm.png',
     tech_stack : 'ReactJs, ExpressJs, MongoDB',
     link: {
         github: 'https://github.com/stainsleto/Learning-JS-FrameWorks/tree/main/100xdevs/paytm',

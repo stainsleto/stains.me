@@ -13,14 +13,14 @@ export default function Skills() {
 
                 <section className='grid grid-cols-2 sm:grid-cols-10 grid-rows-7 gap-3'>
 
-                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-4 items-center justify-center hover:cursor-pointer hover:bg-[#61DAFB] hover:border-[#61DAFB]'>
-                        <img src="https://skillicons.dev/icons?i=react" alt="x-social" className='w-10'  /> 
-                        <span className='text-xl'>React</span>
-                    </div>
-
                     <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white'>
                         <img src="https://skillicons.dev/icons?i=nextjs" alt="x-social" className='w-10'  /> 
                         <span className='text-xl'>NextJs</span> 
+                    </div>
+                    
+                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-4 items-center justify-center hover:cursor-pointer hover:bg-[#61DAFB] hover:border-[#61DAFB]'>
+                        <img src="https://skillicons.dev/icons?i=react" alt="x-social" className='w-10'  /> 
+                        <span className='text-xl'>React</span>
                     </div>
 
                     <div className='p-2 col-span-2 sm:col-span-2 sm:row-span-3  border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-sky-600 hover:text-white hover:border-sky-600'>
@@ -33,9 +33,15 @@ export default function Skills() {
                         <span className='text-xl'>JavaScript</span>      
                     </div>
 
-                    <div className='p-2 sm:col-span-4 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white '>
+                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-black hover:text-white '>
                         <Image src={RecoilImage} width={400} height={100} alt='skills-recoil' className=' w-24'  /> 
                         {/* <span className='text-xl'>Recoil</span>       */}
+                    </div>
+
+                    <div className='p-2 sm:col-span-2 sm:row-span-1 border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-violet-500 hover:text-white '>
+                        <img src="https://skillicons.dev/icons?i=redux" alt='skills-redux' className=' w-10'  /> 
+                        <span className='text-xl'>RTK + RTKQ</span>      
+
                     </div>
 
                     <div className='p-2 sm:col-span-4 sm:row-span-1  border-2 bg-white/90 text-gray-700 rounded-lg font-bold flex gap-2 items-center justify-center hover:cursor-pointer hover:bg-sky-600 hover:text-white hover:border-sky-600'>

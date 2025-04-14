@@ -12,7 +12,7 @@ export default function About(){
                         <Image src="/image/profile-crop.jpg" className='rounded-lg' alt="Stains" width={250} height={100} />   
                         <div className='flex flex-col gap-2'>
                             <h3 className='font-bold text-lg'>Hey again 👋</h3>
-                            <p className='text-sm sm:text-base '>I&apos;m a Full Stack Engineer working @stratforge. My expertise lies in developing applications using Next.js, MERN stack, Recoil, Redux Toolkit, Redux Toolkit Query for state management. I also utilize PostgreSQL with Prisma for database management and deploy applications on Linux servers using Nginx. I handle projects end-to-end, from development to deployment, ensuring scalable and efficient solutions.</p>
+                            <p className='text-sm sm:text-base '>I&apos;m a Full Stack Engineer @stratforge. My expertise lies in developing applications using Next.js, MERN stack, Redux Toolkit, Redux Toolkit Query for state management. I also utilize PostgreSQL with Prisma for database management and containerize applications using docker. I handle projects end-to-end, from development to deployment, ensuring scalable and efficient solutions.</p>
                         </div>
                         <div className='flex gap-3'>
                         <p className='flex gap-2'>
@@ -44,9 +44,12 @@ export default function About(){
 
                     <section className=' flex flex-col sm:w-1/2 gap-5 '>
                         <div className='flex flex-col gap-2 border-2 border-white/10 p-3 rounded-lg bg-white/10 '>
-                            <h3 className='font-bold text-lg'>A little bit about me</h3>
+                            <h3 className='font-bold text-lg'>A little bit more about me</h3>
                             <p className='text-sm sm:text-base  leading-6'>
                             I&apos;m STAINS K S MAULT, known as stains_leto around the web. I&apos;m a 22-year-old Full Stack Engineer based in India, with over of 5 years into programming. Since 2020, I&apos;ve been freelancing, taking on various projects that have honed my skills in both front-end and back-end development. My passion for technology extends beyond work; I'm actively looking to contribute on open-source projects with the global developer community to create impactful solutions.
+                            <br />
+                            <br />
+                            I got new plans to get started with Rust programming, Fintech and create new ventures in the timeline of my career. Getting started with Rust can push me to get started with low level programming and start contributing to web3 projects.
                             </p>
                         </div>
 

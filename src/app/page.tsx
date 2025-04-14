@@ -42,7 +42,7 @@ title : "x",
 
 title : "Linkedin",
     icon: <FaLinkedin className="h-full w-full text-neutral-700" />,
-    href: 'https://www.linkedin.com/in/stains-leto/'
+    href: 'https://www.linkedin.com/in/stains-mault/'
   },
 ]
 
