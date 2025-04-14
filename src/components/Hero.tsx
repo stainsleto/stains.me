@@ -5,7 +5,7 @@ const Hero = () => {
     return (
        
             <section className='flex flex-col scale-110 container rounded-lg justify-center text-center items-center font-bold text-white text-2xl lg:text-4xl leading-10 lg:leading-relaxed backdrop-opacity-20 backdrop-invert  bg-gray-700/40 p-2 lg:p-7 mx-auto w-[80vw] lg:w-[35vw]'>
-                <h1>Hey, I'm <span className='bg-sky-600 p-1 px-2 rounded-md'>Stains🧑🏻‍🦱</span></h1>
+                <h1>Hey, I&apos;m <span className='bg-sky-600 p-1 px-2 rounded-md'>Stains🧑🏻‍🦱</span></h1>
                 <h1><span className=' bg-[#A7ECEE] p-1 px-2 rounded-md text-stone-700'>Full Stack</span> Engineer</h1>
                 <h1>
                     {/* Advancing with  */}

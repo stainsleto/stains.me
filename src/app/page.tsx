@@ -51,7 +51,9 @@ title : "Linkedin",
       <div className="fixed flex justify-center items-end w-[100vw] z-20 h-auto bottom-0 py-5">
         <FloatingDock items={dock} desktopClassName='bg-gray-900/90' />
       </div>
-      <WavyBackground children ={<Hero />} />
+      <WavyBackground  >
+        <Hero />
+      </WavyBackground>
       <Slider />
       <About />
       <Skills />
